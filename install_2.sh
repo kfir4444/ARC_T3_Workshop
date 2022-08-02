@@ -4,6 +4,8 @@ source ~/.bashrc
 
 # Install mamba (https://github.com/mamba-org/mamba, https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 conda install mamba -n base -c conda-forge -y
+mamba init bash
+source ~/.bashrc
 
 #install psi4
 mamba install -c psi4 psi4
