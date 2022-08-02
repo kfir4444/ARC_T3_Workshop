@@ -12,3 +12,5 @@ Open a terminal in the relevant location (Code folder)
 Then:
 
 `bash ARC_T3_Workshop/install_all.sh`
+
+Make sure that you are installing Anaconda3 under the prefix `"home/(user)/anaconda3"`.
