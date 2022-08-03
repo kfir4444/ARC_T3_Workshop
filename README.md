@@ -5,7 +5,7 @@ Here are the files used to automatically install the software required for the w
 
 # installations: 
 
-Create a Code directory using the Files application by right clicking on the background and choosing "New Folder".
+In your Ubuntu virtual machine, create a Code directory using the Files application by right clicking on the background and choosing "New Folder".
 
 Next, open a terminal in the that folder.
 
