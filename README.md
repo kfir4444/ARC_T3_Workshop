@@ -17,6 +17,10 @@ Keep note of the required interaction, for example, the required approvements in
 
 Make sure that you are installing Anaconda3 under the prefix `"home/(user)/anaconda3"`.
 
-After the installation is finished, naviage (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command: `make test`
+# Optional: Testing
 
-After the tests are done, repeat the process with ARC: in the terminal `cd ../ARC`, then `make test`
+After the installation is finished, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command: `make test`
+
+After the tests are done, repeat the process with ARC: 
+
+in the terminal `cd ../ARC`, then `make test`
