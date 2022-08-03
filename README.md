@@ -35,10 +35,21 @@ Run:
 
 `bash ARC_T3_Workshop/make_envs.sh`
 
-# Optional: Testing the software:
+# Optional: Testing
 
-After the installation finished, testing the software is incoraged. Navigate (again, using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command: `make test`
+After the installation is finished, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command:
 
-After the tests are finished, repeat the process with ARC: in the same terminal `cd ../ARC`, then `make test`.
+`make test`
+
+After the tests are done, repeat the process with ARC: 
+
+in the terminal 
+
+`cd ../ARC`
+
+then
+
+`make test`
+
 
 # Congrats! you are all set for the ACS Fall 2022 ARC and T3 Workshop!
