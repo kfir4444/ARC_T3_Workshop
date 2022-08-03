@@ -1,9 +1,9 @@
-# ARC_T3_Workshop:
+# ARC and T3 Workshop:
 Welcome to the instructions for the ACS fall 2022- ARC and T3 workshop!
 
 Here are the files used to automatically install the software required for the workshop.
 
-To install: 
+# installations: 
 
 Create a Code directory using the Files application by right clicking on the background and choosing "New Folder".
 
