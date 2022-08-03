@@ -27,7 +27,7 @@ Look for the required interaction while installing. for example, you may need to
 
 Make sure that you are installing Anaconda3 under the prefix `"home/username/anaconda3"`.
 
-Then, close the terminal, and open a new one in the same directory (`~/Code' or similar by right clicking on the background).
+Then, close the terminal, and open a new one in the same directory.
 
 Run:
 
