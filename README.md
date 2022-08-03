@@ -1,22 +1,44 @@
-# ARC_T3_Workshop
-ACS fall 2022- ARC and T3 workshop
+# ARC_T3_Workshop:
+Welcome to the instructions for the ACS fall 2022- ARC and T3 workshop!
 
-Here are the files used to automatically install the software for the ACS fall 2022
+Here are the files used to automatically install the software required for the workshop.
 
 To install: 
 
-Open a terminal in the relevant location (Code folder) 
+Create a Code directory using the Files by right- clicking on the background and choosing "New Folder".
 
-`git clone git@github.com:kfir4444/ARC_T3_Workshop.git`
+Next, open a terminal in the that folder.
+
+This can be done by right clicking on the file explorrer and choosing "Open In Terminal", or using Ctrl+Alt+T and `cd Code`
+
+Run:
+
+`sudo apt install git`
 
 Then:
 
-`bash ARC_T3_Workshop/install_all.sh`
+`git clone https://github.com/kfir4444/ARC_T3_Workshop`
 
-Keep note of the required interaction, for example, the required approvements in the anaconda3 installation.
+Next:
 
-Make sure that you are installing Anaconda3 under the prefix `"home/(user)/anaconda3"`.
+`bash ARC_T3_Workshop/install_conda.sh`
 
-After the installation finished, testing the software is required. Naviage (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/PATH_TO_RMG/RMG-Py`), then, in the terminal, write the following command: `make test`
+Look for the required interaction while installing. for example, you may need to type "yes" in the terminal to approve the terms and conditions.
 
-After the tests are run, repeat the process with ARC: in the terminal `cd ../ARC`, then `make test`
+Make sure that you are installing Anaconda3 under the prefix `"home/username/anaconda3"`.
+
+Then, close the terminal, and open a new one in the same directory (`~/Code' or similar by right- clicking on the background).
+
+Run:
+
+`bash ARC_T3_Workshop/install_mamba_psi4.sh`
+
+`bash ARC_T3_Workshop/make_envs.sh`
+
+# Optional: Testing the software:
+
+After the installation finished, testing the software is incoraged. Navigate (again, using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command: `make test`
+
+After the tests are finished, repeat the process with ARC: in the same terminal `cd ../ARC`, then `make test`.
+
+# Congrats! you are all set for the ACS Fall 2022 ARC and T3 Workshop!
